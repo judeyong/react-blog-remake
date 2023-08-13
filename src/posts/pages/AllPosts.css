@@ -1,0 +1,15 @@
+.allposts-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  cursor: pointer;
+}
+.postForm-btns__delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  flex-direction: column;
+}

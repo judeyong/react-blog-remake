@@ -1,0 +1,33 @@
+.Input-form {
+  margin: 2rem;
+}
+.Input-form P{
+  font-weight: 400;
+  font-size: large;
+  color: red;
+}
+.Input-form label {
+  display: block;
+  font-size: large;
+  margin: 1rem;
+}
+
+.Input-form input {
+  width: 50%;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.Input-form textarea {
+  width: 50%;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .Input-form input {
+    width: 80%;
+    height: 2rem;
+    padding: 1rem;
+  }
+  
+}

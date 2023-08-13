@@ -1,0 +1,37 @@
+.auth-form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auth-form hr {
+  width: 50%;
+}
+
+.auth-from__form {
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.magin-bot {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .auth-form hr {
+    width: 75%;
+  }
+  .magin-bot button {
+    margin: 1rem;
+  }
+  .auth-from__form {
+    width: 75%;
+  }
+}
