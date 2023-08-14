@@ -5,7 +5,7 @@ export const initialUsers = [
     name: "user1",
     image:
       "https://cdn.pixabay.com/photo/2023/06/02/10/06/nature-8035211_1280.jpg",
-    postCnt: 2,
+    postCnt: 1,
   },
   {
     id: "user2",
@@ -22,14 +22,6 @@ export let initialAllPosts = [
     email: "user1@test.com",
     title: "테스트",
     description: "테스트 글입니다.",
-    date: new Date().toLocaleString(),
-    creator: "user1",
-    id: "user1",
-  },
-  {
-    email: "user1@test.com",
-    title: "가나다라마바사",
-    description: "가나다라마바사 테스트 테스트 글입니다.",
     date: new Date().toLocaleString(),
     creator: "user1",
     id: "user1",
@@ -71,11 +63,20 @@ export const updatePost = (post) => {
 };
 
 export const deletePost = (post) => {
+  console.log('post', post);
   const newPosts = initialAllPosts.filter((element) => {
-    return element.title !== post.title;
+    if(element.id !== post.id) {
+      return element;
+    } else if(element.id === post.id) {
+      return element.date !== post.date;
+    } else {
+      return null;
+    }
+    
   });
   console.log(newPosts);
   initialAllPosts.splice(0, initialAllPosts.length);
+
   newPosts.map((elements) => {
     return initialAllPosts.push(elements);
   });
