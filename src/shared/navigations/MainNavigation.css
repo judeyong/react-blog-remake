@@ -45,7 +45,7 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .main-nav__links {
     display: block;
     white-space: nowrap;
