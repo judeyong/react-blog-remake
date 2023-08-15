@@ -36,7 +36,8 @@ const Auth = () => {
     const loginUserInfo = auth.users.filter((element) => {
       return element.email === email;
     });
-    console.log("loginUserInfo ", loginUserInfo);
+    //console.log("loginUserInfo ", loginUserInfo);
+
     if (signUpMode) {
       //회원가입
       if (loginUserInfo.length > 0) {
@@ -81,7 +82,7 @@ const Auth = () => {
       } else {
         //같은 이메일 존재함 로그인
         auth.LOGIN_FUNC(loginUserInfo[0]);
-        console.log(auth.isLoggedIn);
+        //console.log(auth.isLoggedIn);
         setEmail("");
         setPassword("");
         emailDuplicate ="";

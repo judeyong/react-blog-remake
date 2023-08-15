@@ -53,7 +53,7 @@ const AllPosts = (props) => {
 
   const deletePostHandler =() => {
     allPosts.DELETE_POST(selectedElements);
-    console.log('allposts', allPosts.posts);
+    //console.log('allposts', allPosts.posts);
     allPosts.users.map((element) => {
       if(element.id === selectedElements.id){
         if(element.postCnt <= 0) {
@@ -69,7 +69,7 @@ const AllPosts = (props) => {
   };
 
   const completeUpdateHandler = (post) => {
-    console.log(post);
+    //console.log(post);
     allPosts.UPDATE_POST(post);
     setEditMode(false);
   };

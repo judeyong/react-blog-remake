@@ -47,7 +47,7 @@ const UpdatePost = (props) => {
     });
   };
 
-  console.log("initial value", updateInputs);
+  //console.log("initial value", updateInputs);
 
   return (
     <div>

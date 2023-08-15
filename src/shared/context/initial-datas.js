@@ -37,7 +37,7 @@ export let initialAllPosts = [
 ];
 
 export const addUser = (userInfo) => {
-  console.log("addUser : ", userInfo);
+  //console.log("addUser : ", userInfo);
   initialUsers.push(userInfo);
 };
 
@@ -63,7 +63,7 @@ export const updatePost = (post) => {
 };
 
 export const deletePost = (post) => {
-  console.log('post', post);
+  //console.log('post', post);
   const newPosts = initialAllPosts.filter((element) => {
     if(element.id !== post.id) {
       return element;
@@ -74,7 +74,7 @@ export const deletePost = (post) => {
     }
     
   });
-  console.log(newPosts);
+  //console.log(newPosts);
   initialAllPosts.splice(0, initialAllPosts.length);
 
   newPosts.map((elements) => {

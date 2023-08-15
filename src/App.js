@@ -53,7 +53,7 @@ function App() {
     });
   }, []);
 
-  console.log("login Id : ", loginInfo);
+  //console.log("login Id : ", loginInfo);
   //console.log("login state : ", isLoggedIn);
   let routes;
   if (isLoggedIn) {

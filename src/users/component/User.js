@@ -5,7 +5,7 @@ import UserList from "../pages/UserList";
 
 const User = () => {
   const auth = useContext(AppContexts);
-  console.log(auth.users);
+  //console.log(auth.users);
   
   return (
     <div className="center">
