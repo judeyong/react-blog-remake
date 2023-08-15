@@ -1,30 +1,32 @@
+
 .updateErrText {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: red;
 }
 .update-title {
-  margin: 0.5rem;
+  margin: 0.3rem;
 }
 .update-title label {
-  margin: 0.5rem;
-  font-size: 1.5rem;
+  margin: 0.3rem;
+  font-size: 1rem;
 }
 .update-title input {
-  margin: 0.5rem;
-  font-size: 1.5rem;
-  width: 50%;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  width: 55%;
 }
 
 .update-desc {
-  margin: 1rem 1rem;
+  margin: 0.3rem 0.3rem;
 }
 
 .update-desc label {
-  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
 }
 
 .update-desc textarea {
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  width: 50%;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  width: 60%;
 }
