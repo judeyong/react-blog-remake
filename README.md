@@ -130,6 +130,7 @@ validation을 만들어 프론트 사이드에서 활용하였습니다.
     }
 
 react-transition-group CSSTransiton 컴포넌트 사용.
+
     const content = (
         <CSSTransition
             in={props.show}
