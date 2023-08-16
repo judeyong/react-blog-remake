@@ -156,6 +156,7 @@ const AllPosts = (props) => {
         show={editMode}
         onCancel={closeEditModeHandler}
         date={selectedElements.date}
+        footerClass='updatefooter'
         footer={postFormBtns}
       >
         <UpdatePost

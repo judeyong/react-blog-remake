@@ -10,6 +10,15 @@
   align-items: center;
   justify-content: center;
 }
+
 .center {
   flex-direction: column;
+}
+
+@media(max-width: 768px) {
+  .allposts-ul {
+    font-size: small;
+    white-space: nowrap;
+    width: 50%;
+  }
 }

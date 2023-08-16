@@ -47,6 +47,9 @@
 .deletefooter {
   left: 35%;
 }
+.updatefooter {
+  bottom: -10px;
+}
 @media (min-width: 768px) {
   .modal {
     left: calc(50% - 20rem);
