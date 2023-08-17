@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/judeyong.github.io/react-blog-remake/static/css/main.2c940361.css",
-    "main.js": "/judeyong.github.io/react-blog-remake/static/js/main.92fec9b1.js",
-    "static/js/787.d654f185.chunk.js": "/judeyong.github.io/react-blog-remake/static/js/787.d654f185.chunk.js",
-    "index.html": "/judeyong.github.io/react-blog-remake/index.html",
-    "main.2c940361.css.map": "/judeyong.github.io/react-blog-remake/static/css/main.2c940361.css.map",
-    "main.92fec9b1.js.map": "/judeyong.github.io/react-blog-remake/static/js/main.92fec9b1.js.map",
-    "787.d654f185.chunk.js.map": "/judeyong.github.io/react-blog-remake/static/js/787.d654f185.chunk.js.map"
+    "main.css": "/react-blog-remake/static/css/main.2c940361.css",
+    "main.js": "/react-blog-remake/static/js/main.316170c2.js",
+    "static/js/787.d654f185.chunk.js": "/react-blog-remake/static/js/787.d654f185.chunk.js",
+    "index.html": "/react-blog-remake/index.html",
+    "main.2c940361.css.map": "/react-blog-remake/static/css/main.2c940361.css.map",
+    "main.316170c2.js.map": "/react-blog-remake/static/js/main.316170c2.js.map",
+    "787.d654f185.chunk.js.map": "/react-blog-remake/static/js/787.d654f185.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c940361.css",
-    "static/js/main.92fec9b1.js"
+    "static/js/main.316170c2.js"
   ]
 }
