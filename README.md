@@ -7,10 +7,6 @@ https://judeyong.github.io/react-blog-remake/
 
 ---
 
-준비중............
-
----
-
 #### 설치와 실행 방법
 
 ## 설치 npm install
