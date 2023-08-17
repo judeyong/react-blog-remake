@@ -94,7 +94,7 @@ function App() {
         loginEmail: loginInfo,
       }}
     >
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <MainNavigation />
         <main>{routes}</main>
       </Router>
